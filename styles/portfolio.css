@@ -110,9 +110,13 @@ nav a {
 }
 
 /* main section styles */
-main{
+main {
     max-width: 1140px;
     margin: 0 auto;
+}
+
+main section{
+    margin-top: 130px;
 }
 
 /* about section styles */
@@ -122,24 +126,40 @@ main{
     border-radius: 10px;
     margin: 130px 0;
 }
-.about-info-container{
+
+.about-info-container {
     display: flex;
     justify-content: space-between;
 }
-.about-info{
-    text-align:center;
+
+.about-info {
+    text-align: center;
 }
-.about-title{
+
+.about-title {
     margin: 30px 0 0 0;
 }
-.about-description{
+
+.about-description {
     margin: 5px 0 0 0;
 }
 
 /* what i do section styles */
-.skill-container{
-    display:flex;
+.skill-container {
+    display: flex;
+    gap: 24px;
 }
-#section-description-id{
+
+#section-description-id {
     padding: 30px 150px;
+}
+
+.skill {
+    padding:33px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+.skill-description{
+    color:#757575;
 }
