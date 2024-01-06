@@ -1,10 +1,6 @@
 /* common shared styles */
 body {
-    font-family: 'Kdam Thmor Pro', sans-serif;
-    font-family: 'Montserrat', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Roboto', sans-serif;
-    font-family: 'Rubik', sans-serif;
 }
 
 .text-primary {
@@ -115,7 +111,7 @@ main {
     margin: 0 auto;
 }
 
-main section{
+main section {
     margin-top: 130px;
 }
 
@@ -155,11 +151,49 @@ main section{
 }
 
 .skill {
-    padding:33px;
+    padding: 33px;
     border-radius: 5px;
     background: #FFF;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
-.skill-description{
-    color:#757575;
+
+.skill-description {
+    color: #757575;
+}
+
+/* resume section styles */
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-container {
+    display: flex;
+    gap: 50px;
+}
+
+.resume-item-title {
+    color: #474747;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.resume-item-subtitle{
+    margin-top:0;
+    margin-bottom:20px;
+}
+.resume-item-description{
+    margin-top:0;
+}
+
+.resume-item-subtitle,
+.resume-item-description {
+    color: #757575;
+}
+.resume-container hr{
+    margin:30px;
+}
+.download-cv{
+    text-align: center;
+    margin-top:50px;
 }
